@@ -1,3 +1,5 @@
+require'pry'
+
 # Your code goes here!
 class Anagram
   def initialize(word)
@@ -5,6 +7,7 @@ class Anagram
   end
   def match(words_array)
     words_array.each do |word|
-      word.
+      bingdin.pry
+  end
   end
 end
