@@ -6,7 +6,7 @@ class Anagram
   
   def initialize(word)
     @word = word
-    @word_sorted = word.split.sort 
+    @word_sorted = word.split("").sort 
   end
   def match(words_array)
     words_array.select do |word|
