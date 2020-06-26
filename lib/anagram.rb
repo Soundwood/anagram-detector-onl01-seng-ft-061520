@@ -7,7 +7,7 @@ class Anagram
   end
   def match(words_array)
     words_array.each do |word|
-      bingdin.pry
+      binding.pry
   end
   end
 end
