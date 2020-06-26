@@ -12,7 +12,7 @@ class Anagram
     words_array.select do |word|
       sorted_word = word.split("").sort 
       sorted_word == @word_sorted
-      binding.pry
+      #binding.pry
     end
   end
 end
