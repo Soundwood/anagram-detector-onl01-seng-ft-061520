@@ -9,7 +9,7 @@ class Anagram
   end
   def match(words_array)
     words_array.each do |word|
-      binding.pry
+      word.split("")
   end
   end
 end
